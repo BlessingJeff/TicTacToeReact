@@ -1,0 +1,18 @@
+.board {
+    display: grid;
+    background-color: burlywood;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    cursor: pointer;
+    height: 300px;
+    width: 300px;
+    
+}
+.boardn {
+    display: flex;
+    font-size: 4rem;
+    opacity: .6;
+    border: 2px outset  rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif
+}
